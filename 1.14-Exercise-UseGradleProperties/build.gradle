@@ -26,3 +26,7 @@ task bundleWeb(type: Zip) {
 
     from 'src/web'
 }
+
+ext {
+    bundleBaseName = 'web2' // 4. Define extra property
+}
